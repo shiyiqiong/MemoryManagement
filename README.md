@@ -10,6 +10,9 @@
 **内存检查工具：**
 - Memory Profiler
 - Lua Profiler：https://github.com/leinlin/Miku-LuaProfiler.git
+
+![image](https://github.com/user-attachments/assets/242a2709-bc1e-4506-8be3-13f0403fdf5c)
+
 ***
 **内存管理主要问题：**
 - 内存峰值高：
