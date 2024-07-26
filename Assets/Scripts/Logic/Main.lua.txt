@@ -1,0 +1,26 @@
+
+
+local data1
+
+function start()
+	print("lua start...")
+end
+
+function init()
+	print("lua init...")
+end
+
+
+function load()
+	print("load...")
+	data1 = require("data")
+	print(data1[1])
+	
+end
+
+function release()
+	print("release...")
+	package.loaded["data"] = nil
+	data1 = nil
+	_G["data"] = nil
+end
